@@ -1,0 +1,74 @@
+/*css comment */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+body{
+    font-family: 'Kanit', sans-serif;
+}
+.center{
+    text-align: center;
+}
+.color-test{
+    background-color: brown;
+}
+.color-test-rgb{
+    background-color: rgb(240, 202, 146);
+}
+.color-test-rgba{
+    background-color: rgba(rgb(255, 43, 43), rgb(0, 0, 0), rgb(0, 0, 0), );
+}
+.color-test-hex{
+    background-color: #03cafc;
+}
+.background-test{
+    background-color: salmon;
+}
+.background-test-img{
+    background-image: url("New.jpg");
+    background-repeat: no-repeat;
+    background-position: center top ;
+    background-attachment: fixed;
+}
+.background-test-img-short{
+    background: pink url("New.jpg") no-repeat 50% -1000% ;
+    
+}
+.margin-test{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.padding-test{
+    border: 1px solid brown;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+/*
+body {
+    background-color: rgb(124, 231, 250);
+            }
+            h1 {
+                color: rgb(0, 0, 0);
+                text-align: center;
+            }
+            p{
+                color: rgb(235, 27, 27);
+                text-align: center;
+            } 
+            #fy{
+                color: rgb(218, 250, 242);
+                
+            } 
+            .fr{
+                color: rgb(248, 215, 106);
+            }
+            .fb{
+                font-size: 50px;
+            }
+            p.center{
+                text-align: center;
+            }
+
+            */
